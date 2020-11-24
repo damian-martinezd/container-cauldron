@@ -1,4 +1,28 @@
 {
- "nativeApps": [],
- "schemaVersion": "3.0.0"
+  "nativeApps": [
+    {
+      "name": "base-app-native",
+      "platforms": [
+        {
+          "name": "android",
+          "versions": [
+            {
+              "name": "0.0.1",
+              "binary": null,
+              "codePush": {},
+              "container": {
+                "jsApiImpls": [],
+                "miniApps": [],
+                "nativeDeps": []
+              },
+              "isReleased": false,
+              "nativeDeps": [],
+              "yarnLocks": {}
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "schemaVersion": "3.0.0"
 }
